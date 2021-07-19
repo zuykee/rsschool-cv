@@ -188,10 +188,10 @@ I've changed a lot of professions for my life, but was never satisfied by oportu
 ```
 ### Result
 
-![image](https://github.com/zuykee/rsschool-cv/blob/gh-pages/cv_result.png)
+![image](http://zuykeedev.ru/cv_result.png)
 
 ## Portfolio
-* [My Personal Website](http://www.zuykeedev.ru)\
+* [My Personal Website](http://www.zuykeedev.ru)
 * [My CodePen](https://codepen.io/konstantin-volobuev/)
 
 ## Education
