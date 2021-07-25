@@ -1,0 +1,132 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(53, 185, 194, 1);
+    background-color: #000000;
+    font-size: 14px;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+.fixed-container {
+
+    max-width: 1286px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.link {
+    color: rgba(53, 141, 167, 1);
+}
+
+.link:hover {
+
+    color: rgba(53, 157, 251, 1);
+}
+
+.main-header {
+    width: 100%;
+    text-align: center;
+}
+
+.brief {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.photo {
+    width: 30%;
+}
+
+.code-sample {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sample-part {
+
+    border: 3px solid rgba(53, 141, 167, 0.4);
+    width: 48%;
+    background-color: rgba(53, 185, 230, 0.1);
+}
+
+.sample-text {
+    font-size: 0.5rem;
+    border-top: 3px solid rgba(53, 141, 167, 0.4);
+    ;
+    font-weight: 700;
+
+    margin: 0;
+    padding: 1em;
+}
+
+.sub-header,
+.sub-sub-header {
+    width: 100%;
+}
+
+.footer {
+    border-top: 1px solid rgba(53, 141, 167, 0.4);
+    ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    list-style-type: none;
+    width: 15%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.link-icon {
+    width: 25%;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.year {
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+    justify-content: center;
+}
+
+.sample-part__header {
+    background-color: #000000;
+    margin: 0;
+    padding: 1em;
+    width: 94%;
+}
+
+.sample-image {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.screenshot {
+    width: 60%;
+    align-self: center;
+}
