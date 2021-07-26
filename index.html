@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Curiculum Vitae</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="main-header"> Currirculum Vtae</h1>
+        <section class="brief fixed-container">
+            <div class="brief-text-part">
+                <h2 class="sub-header"> General Info</h2>
+                <ul class="text-part-list list-reset">
+                    <li><span class="bold-text">Name:</span> Konstantin Volobuev</li>
+                    <li> <span class="bold-text">Birth Date:</span> 26.01.1990</li>
+                    <li> <span class="bold-text">Contact Phone:</span> +7-911-038-29-33</li>
+                    <li><span class="bold-text">E-Mail:</span> zuykee.bone@gmail.com</li>
+                    <li> <span class="bold-text">English Level:</span> A2+</li>
+                </ul>
+            </div>
+            <div class="photo">
+                <img class="image portrait" src="img/AH9QR7ggtK8.jpg" alt="portrait">
+            </div>
+        </section>
+    </header>
+    <main class="main">
+
+        <article class="about fixed-container">
+            <h2 class="sub-header">About</h2>
+
+            <p> My main goal is to became a specialist with whom you want to work: qualified, interested in his work and always looking for new ways to realise your project with the most modern technologies.<br>
+                I've changed a lot of professions for my life, but was never satisfied by oportunities, which was offered me by my current position. The world is so big and curious (either places to explore, or activities to discover), and needs a lot of resources, as money or time. Once i've decided that sowftware development is the best field to reach these resources, and this decision inspires me to continue to studying, improve my actual skills and explore new ones.
+            </p>
+            <p> In 2009 i've finished ITMO's faculty of secondary vocational education with a degree of software engineer, but knowledge gained was almost useless (we've learned basics of OOP and DBMS, applying it to Delphi and VBA). Also i'm studying on a course "Fullstack-developer" of Skillbox univercity, and succesfully finished "Web-developing" graduation work, which you can check <a class="link" href="http://www.zuykeedev.ru/old">here</a>.
+            </p>
+        </article>
+        <section class="skills fixed-container">
+            <h2 class="sub-header">Skills</h2>
+
+            <h3 class="sub-sub-header"> Environment</h3>
+
+            <ul class="list">
+                <li> Visual Studio Code</li>
+                <li> GIT</li>
+                <li> NodeJS</li>
+            </ul>
+
+
+
+            <h3 class="sub-sub-header"> Actual skills</h3>
+
+            <ul class="list">
+                <li> HTML</li>
+                <li> CSS</li>
+                <li> JS (jQuery, Vanilla JS).</li>
+                <li> BEM </li>
+                <li> Adaptive layout</li>
+            </ul>
+
+            <h3 class="sub-sub-header"> Primary wanted skills</h3>
+            <ul class="list">
+                <li> Some JS-framework</li>
+                <li> GSAP </li>
+                <li> WooCommerce </li>
+                <li> Python + Django </li>
+            </ul>
+        </section>
+
+        <section class="code-sample fixed-container">
+            <h2 class="sub-header"> Code Sample </h2>
+
+            <div class="sample-part">
+                <h3 class="sub-sub-header sample-part__header">HTML</h3>
+
+                <pre class="sample-text"><code >
+&lt;section class="skills" id="skills"&gt;
+ &lt;div class="skills__container fixed-container"&gt;
+  &lt;h2 class="sub-title skills__sub-title"&gt;Что я делаю&lt;/h2&gt;
+   &lt;ul class="skills__items list-reset"&gt;
+    &lt;li class="skills__item"&gt;
+     &lt;a href="#" class="skills-link skills-link--landing"&gt;
+      &lt;picture&gt;
+       &lt;source srcset="img/shrink/landing.png" media="(max-width: 576px)"&gt;
+        &lt;img src="img/landing.png"
+			alt="Верстка лендинг-страниц и сайтов любой сложности"&gt;
+      &lt;/picture&gt;
+         &lt;p class="description skills__description"&gt;
+		 	Верстка лендинг-страниц&lt;br&gt; и сайтов любой сложности
+	 &lt;/p&gt;
+     &lt;/a&gt;
+     &lt;/li&gt;
+      &lt;li class="skills__item"&gt;
+        &lt;a href="#" class="skills-link skills-link--adapt"&gt;
+         &lt;picture&gt;
+          &lt;source srcset="img/shrink/adapt.png" media="(max-width: 576px)"&gt;
+           &lt;img src="img/adapt.png"
+		alt="Адаптивная верстка под все браузеры и устройства"&gt;
+         &lt;/picture&gt;
+           &lt;p class="description skills__description"&gt;
+			Адаптивная верстка под&nbsp;все &lt;br&gt;браузеры и устройства
+	   &lt;/p&gt;
+        &lt;/a&gt;
+       &lt;/li&gt;
+         &lt;li class="skills__item"&gt;
+          &lt;a href="#" class="skills-link skills-link--frontend"&gt;
+           &lt;picture&gt;
+            &lt;source srcset="img/shrink/frontend.png" media="(max-width: 576px)"&gt;
+                 &lt;img src="img/frontend.png"
+				alt="Frontend-разработка и программирование"&gt;
+           &lt;/picture&gt;
+            &lt;p class="description skills__description"&gt;
+		   	Frontend-разработка &lt;br&gt;и&nbsp;программирование
+	    &lt;/p&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+         &lt;li class="skills__item"&gt;
+          &lt;a href="#" class="skills-link skills-link--support"&gt;
+           &lt;picture&gt;
+            &lt;source srcset="img/shrink/support.png" media="(max-width: 576px)"&gt;
+             &lt;img src="img/support.png"
+		alt="Исправление и доработка существующей верстки"&gt;
+           &lt;/picture&gt;
+            &lt;p class="description skills__description"&gt;
+		Исправление и доработка&lt;br&gt; существующей верстки
+	    &lt;/p&gt;
+           &lt;/a&gt;
+        &lt;/li&gt;
+   &lt;/ul&gt;
+   	&lt;button class="btn btn-fill skills__btn order-form__btn btn-reset"&gt;
+	   			Узнать стоимость
+	&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+            </div>
+            <div class="sample-part">
+                <h3 class="sub-sub-header sample-part__header"> CSS </h3>
+                <pre class="sample-text"><code >
+
+
+.btn-reset {
+	    border: none;
+	    background: transparent;
+	    cursor: pointer;
+	}
+
+	.btn-fill {
+	    background-color: #ff4e2e;
+	    color: white;
+	    width: 270px;
+	    height: 60px;
+	    line-height: 60px;
+	    font-size: 18px;
+	}
+
+
+.btn {
+	    width: 207px;
+	    height: 45px;
+	    line-height: 45px;
+	    text-align: center;
+	    color: #f53f4f;
+	    font-size: 16px;
+	    font-weight: 400;
+
+	    transition: color 0.5s, background-color 0.5s;
+
+
+	}
+
+.list-reset {
+	    list-style-type: none;
+	}
+
+.sub-title {
+	    font-size: 54px;
+	    text-align: center;
+	}
+
+.skills__container {
+	    display: flex;
+	    flex-wrap: wrap;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    padding-bottom: 101px;
+	    padding-top: 85px;
+	}
+
+	.skills__items {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	    margin-top: 88px;
+	    margin-bottom: 45px;
+	    width: 100%;
+	}
+
+
+	.skills__item {
+
+	    border: none;
+
+	    background: inherit;
+
+	    background-repeat: no-repeat;
+
+	    background-position: center center;
+
+	    outline: none;
+
+
+	}
+
+	.skills-link {
+	    text-align: center;
+	}
+
+
+
+	.skills__description {
+	    color: #8993ad;
+	    font-size: 20px;
+	    letter-spacing: 0.3px;
+	    line-height: 28px;
+	}
+
+	.skills__btn {
+	    width: 270px;
+	    height: 60px;
+	}
+</code></pre>
+            </div>
+            <div class="sample-image">
+                <h3 class="sub-sub-header">Result</h3>
+                <img class="image screenshot" src="img/cv_result.png" alt="code result">
+            </div>
+            <h2 class="sub-header"> Portfolio</h2>
+            <ul class="list">
+                <li> <a class="link" href="http://www.zuykeedev.ru">My Personal Website</a></li>
+                <li> <a class="link" href="https://codepen.io/konstantin-volobuev/">My CodePen</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-links list-reset">
+            <li class="link-icon"><a class="link" href="https://github.com/zuykee"><img class="icon" src="img/github.png" alt="My GitHub"></a></li>
+            <li class="link-icon"><a class="link" href="https://rs.school/js/"><img class="icon" src="img/rsschool.svg" alt="Rolling Scope school"></a></li>
+        </ul>
+        <span class="year"><small>©2021</small></span>
+
+    </footer>
+</body>
+
+</html>
