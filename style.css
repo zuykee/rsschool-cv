@@ -11,7 +11,12 @@ img {
     width: 100%;
 }
 
+.fixed-container {
 
+    max-width: 1286px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
 
 a {
     text-decoration: none;
@@ -25,17 +30,6 @@ a {
 .link:hover {
 
     color: rgba(53, 157, 251, 1);
-}
-
-.list-reset {
-    list-style-type:none;
-}
-
-.fixed-container {
-
-    max-width: 1286px;
-    margin: 0 auto;
-    padding: 0px 40px;
 }
 
 .main-header {
@@ -93,7 +87,7 @@ a {
 }
 
 .footer-links {
-
+    list-style-type: none;
     width: 15%;
     margin: auto;
     display: flex;
