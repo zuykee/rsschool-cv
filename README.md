@@ -1,1 +1,1 @@
-# rsschool-cv
+https://zuykee.github.io/rsschool-cv
